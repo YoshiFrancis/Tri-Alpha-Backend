@@ -1,0 +1,18 @@
+GET http://localhost:3001/api/posts
+Content-Type: application/json
+
+###
+
+POST http://localhost:3001/api/posts
+Content-Type: application/json
+
+{
+    "username": "Yoshi",
+    "topic": "I hope this works",
+    "info": "true"
+}
+
+### 
+
+DELETE http://localhost:3001/api/posts/64095966895e4d73699baaf1
+Content-Type: application/json
