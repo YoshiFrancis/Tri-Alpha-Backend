@@ -4,6 +4,7 @@ const postSchema = new mongoose.Schema({
     topic: String,
     username: String,
     info: String,
+    image: String,
 })
 
 postSchema.set('toJSON', {
