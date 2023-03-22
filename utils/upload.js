@@ -3,7 +3,7 @@ const multer = require('multer')
 
 const storage = multer.diskStorage({ 
     destination: function(req, file, callBack) {
-        callBack(null, 'uploads/')
+        callBack(null, '../../TriAlpha Website - Copy/trialpha/public/uploads/')
         
     },
     filename: function(req, file, cb) {

@@ -6,7 +6,7 @@ const upload = require('../utils/upload')
 
 postsRouter.get('/', async (req, res) => {
     let post = await Post.find({})
-    console.log(post[0].image)
+    console.log(post)
     res.json(post)
 })
 
